@@ -3,6 +3,9 @@
     "name": "chatApp",
     "slug": "chatApp",
     "version": "1.0.0",
+    "plugins":[
+      "@react-native-firebase/app","@react-native-firebase/auth"
+    ],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -15,13 +18,20 @@
       "supportsTablet": true
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dexwirenews.chatapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "16a6b4fb-d1a7-44ea-86b0-66eebedd6bed"
+      }
     }
   }
 }

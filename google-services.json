@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "758726136040",
+    "project_id": "chatapp-830e0",
+    "storage_bucket": "chatapp-830e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758726136040:android:e12a612b7ff444f7ca795d",
+        "android_client_info": {
+          "package_name": "com.dexwirenews.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx8f_nBjQ8kPzv9IQRxtbjqZCaKYLlRCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
